@@ -1,0 +1,10 @@
+pytest==7.4.3
+requests==2.31.0
+allure-pytest==2.13.2
+pytest-html==4.1.1
+faker==20.1.0
+pydantic==2.5.2
+black==23.12.1
+flake8==6.1.0
+pylint==3.0.3
+isort==5.13.2

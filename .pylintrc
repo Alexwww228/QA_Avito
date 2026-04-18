@@ -1,0 +1,37 @@
+[MASTER]
+# Python code to execute, usually for sys.path manipulation
+init-hook='import sys; sys.path.append(".")'
+
+# Files or directories to be skipped
+ignore=CVS,.git,__pycache__,.pytest_cache,venv,.venv,allure-results,allure-report
+
+[MESSAGES CONTROL]
+# Disable specific warnings
+disable=
+    C0111,  # missing-docstring
+    C0103,  # invalid-name
+    R0913,  # too-many-arguments
+    R0914,  # too-many-locals
+    W0212,  # protected-access
+    C0301,  # line-too-long (handled by black)
+
+[FORMAT]
+# Maximum number of characters on a single line
+max-line-length=100
+
+# Maximum number of lines in a module
+max-module-lines=1000
+
+[BASIC]
+# Good variable names
+good-names=i,j,k,ex,Run,_,id,db
+
+[DESIGN]
+# Maximum number of arguments for function / method
+max-args=7
+
+# Maximum number of attributes for a class
+max-attributes=10
+
+# Maximum number of public methods for a class
+max-public-methods=20
